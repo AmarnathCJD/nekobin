@@ -1,1 +1,1 @@
-worker: ./bin/nekobin
+web: ./bin/nekobin
