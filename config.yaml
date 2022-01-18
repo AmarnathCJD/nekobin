@@ -12,7 +12,7 @@ nekobin:
 # Postgres database configuration
 database:
   # Connection string
-  uri: ${DATABASE_URL}
+  uri: "postgres://gtwowealhziuub:2f6dda12657de4f5c38daab471e68be4a7d1b70951f35244971cad216655b1a5@ec2-18-213-133-45.compute-1.amazonaws.com:5432/da6v0gqn61cops"
 
   # Advanced connection pool settings
   max_idle_conns: 5
