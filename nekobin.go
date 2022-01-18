@@ -60,7 +60,7 @@ func main() {
 
 	cfg := config.Load("config.yaml")
 	db := database.NewDatabase(&cfg.Database)
-
+        fmt.Println(db)
 	e.Use(
 		mw.LoggerWithConfig(
 			mw.LoggerConfig{
