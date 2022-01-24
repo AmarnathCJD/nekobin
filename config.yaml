@@ -7,7 +7,7 @@ nekobin:
   # Maximum length for title, author and content
   max_title_length: 32
   max_author_length: 32
-  max_content_length: 65536
+  max_content_length: 6553600
 
 # Postgres database configuration
 database:
